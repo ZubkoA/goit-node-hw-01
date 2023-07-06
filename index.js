@@ -28,14 +28,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-// invokeAction({ action: "list" });
-// invokeAction({ action: "get", id: "e6ywwRe4jcqxXfCZOj_1e" });
-// invokeAction({
-//   action: "add",
-//   name: "Aleck Hords",
-//   email: "hords@sceler.net",
-//   phone: "(748) 206-8856",
-// });
-// invokeAction({ action: "remove", id: "e6ywwRe4jcqxXfCZOj_1e" });
-
 invokeAction(argv);
